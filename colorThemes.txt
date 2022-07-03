@@ -1,0 +1,5 @@
+light grey - background image - c3c3c3
+highlight - f5bf0c
+dark black - 2b2a2a
+grey - 
+text section heading color - 
