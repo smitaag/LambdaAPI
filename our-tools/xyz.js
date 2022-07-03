@@ -9,7 +9,7 @@ const ddb = new AWS.DynamoDB.DocumentClient();
 
 const fleet = [
     {
-        Name: 'Bucephalus',
+        Name: 'Sumant',
         Color: 'Golden',
         Gender: 'Male',
     },
@@ -37,7 +37,7 @@ exports.handler = (event, context, callback) => {
     // Because we're using a Cognito User Pools authorizer, all of the claims
     // included in the authentication token are provided in the request context.
     // This includes the username as well as other attributes.
-    const username = event.requestContext.authorizer.claims['cognito:username'];
+    const username = "Smita";//event.requestContext.authorizer.claims['cognito:username'];
 
     // The body field of the event in a proxy integration is a raw string.
     // In order to extract meaningful values, we need to first parse this string
